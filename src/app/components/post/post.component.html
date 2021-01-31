@@ -6,8 +6,8 @@
   <img
     mat-card-image
     [src]="post.imageUrl"
-    [alt]="post | postAltTag"
-    [title]="post | postAltTag">
+    [alt]="post | postSummary"
+    [title]="post | postSummary">
 
   <mat-card-content>
     <blockquote class="quote">{{ post.quote }}</blockquote>
