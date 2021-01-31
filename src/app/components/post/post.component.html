@@ -1,0 +1,22 @@
+<mat-card *ngIf="post">
+  <mat-card-header>
+    <mat-card-title>{{ post.name }}</mat-card-title>
+  </mat-card-header>
+
+  <img
+    mat-card-image
+    [src]="post.imageUrl"
+    [alt]="post | postAltTag"
+    [title]="post | postAltTag">
+
+  <mat-card-content>
+    <blockquote class="quote">{{ post.quote }}</blockquote>
+  </mat-card-content>
+
+  <mat-card-actions>
+    <button mat-icon-button color="warn" aria-label="Like this quote">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <span> {{ post.numberOfLikes || 0 }} </span>
+  </mat-card-actions>
+</mat-card>
