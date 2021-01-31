@@ -3,7 +3,7 @@ import { PetPost } from '../models/pet.model';
 export const petPostsData: PetPost[] = [
   {
     name: 'Homer',
-    quote: 'I tore open the cat nip and now I\'m too stoned to move ...',
+    quote: `I tore open the cat nip and now I'm too stoned to move ...`,
     numberOfLikes: 2374,
     imageUrl: `https://static.boredpanda.com/blog/wp-content/uploads/2015/03/cat-shaming-16__605.jpg`
   },
@@ -15,7 +15,7 @@ export const petPostsData: PetPost[] = [
   },
   {
     name: 'Abed',
-    quote: `I poop at the bottom of kids' slide.`,
+    quote: `I poop at the bottom of the kids' slide.`,
     numberOfLikes: 374,
     imageUrl: 'https://barkpost-assets.s3.amazonaws.com/wp-content/uploads/2013/10/Screen-Shot-2013-10-02-at-1.41.48-PM.png'
   },
