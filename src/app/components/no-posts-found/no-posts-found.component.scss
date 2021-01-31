@@ -1,0 +1,12 @@
+div.no-posts-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  p {
+    font-size: 36px;
+    color: #666666;
+    margin-bottom: 20px;
+  }
+}
+
