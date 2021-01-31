@@ -9,13 +9,15 @@ import { MaterialModule } from './modules/material.module';
 import { PostSummaryPipe } from './pipes/post-summary.pipe';
 import { PostComponent } from './components/post/post.component';
 import { NoPostsFoundComponent } from './components/no-posts-found/no-posts-found.component';
+import { GrowOnHoverDirective } from './directives/grow-on-hover.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     PostSummaryPipe,
     PostComponent,
-    NoPostsFoundComponent
+    NoPostsFoundComponent,
+    GrowOnHoverDirective
   ],
   imports: [
     BrowserModule,

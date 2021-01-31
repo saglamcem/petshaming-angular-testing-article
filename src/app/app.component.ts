@@ -9,8 +9,6 @@ import { PetPost } from './models/pet.model';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'pet-shaming';
-
   readonly posts$: Observable<PetPost[]> = this.petService.getPetPosts('api/pets/whatever');
 
   constructor(private readonly petService: PetService) {}
