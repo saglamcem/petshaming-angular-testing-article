@@ -1,5 +1,6 @@
 import { Directive, HostBinding, HostListener } from '@angular/core';
 
+// an idea for testing this directive here: https://www.youtube.com/watch?v=GsSpiwSFwp8
 @Directive({
   // tslint:disable-next-line:directive-selector
   selector: '[growOnHover]'
