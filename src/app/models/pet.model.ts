@@ -6,7 +6,7 @@ export type Pet = {
 export type Post = {
   quote: string;
   numberOfLikes: number;
-  liked: boolean;
+  isLiked: boolean;
 };
 
 export type PetPost = Pet & Post;

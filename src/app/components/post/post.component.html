@@ -14,14 +14,7 @@
   </mat-card-content>
 
   <mat-card-actions>
-    <button
-      growOnHover
-      mat-icon-button
-      color="warn"
-      aria-label="Like this quote">
-      <mat-icon>favorite_outline</mat-icon>
-    </button>
-
+    <app-like-button [active]="post.isLiked"></app-like-button>
     <span> {{ post.numberOfLikes || 0 }} </span>
   </mat-card-actions>
 </mat-card>

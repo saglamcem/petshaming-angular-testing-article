@@ -10,6 +10,7 @@ import { PostSummaryPipe } from './pipes/post-summary.pipe';
 import { PostComponent } from './components/post/post.component';
 import { NoPostsFoundComponent } from './components/no-posts-found/no-posts-found.component';
 import { GrowOnHoverDirective } from './directives/grow-on-hover.directive';
+import { LikeButtonComponent } from './components/like-button/like-button.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { GrowOnHoverDirective } from './directives/grow-on-hover.directive';
     PostSummaryPipe,
     PostComponent,
     NoPostsFoundComponent,
-    GrowOnHoverDirective
+    GrowOnHoverDirective,
+    LikeButtonComponent
   ],
   imports: [
     BrowserModule,

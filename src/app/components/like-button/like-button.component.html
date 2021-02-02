@@ -1,0 +1,8 @@
+<button
+  id="likeButton"
+  growOnHover
+  mat-icon-button
+  color="warn"
+  [attr.aria-label]="active ? 'Undo' : 'Like this quote'">
+  <mat-icon>{{ active ? 'favorite' : 'favorite_outline' }}</mat-icon>
+</button>
