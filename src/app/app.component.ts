@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { PetService } from './services/pet.service';
+import { PostService } from './services/post.service';
 import { Observable } from 'rxjs';
-import { PetPost } from './models/pet.model';
+import { PetPost } from './models/post.model';
 
 @Component({
   selector: 'app-root',
@@ -11,5 +11,5 @@ import { PetPost } from './models/pet.model';
 export class AppComponent {
   readonly posts$: Observable<PetPost[]> = this.petService.getPetPosts('api/pets/whatever');
 
-  constructor(private readonly petService: PetService) {}
+  constructor(private readonly petService: PostService) {}
 }

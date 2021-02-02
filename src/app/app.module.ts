@@ -11,6 +11,7 @@ import { PostComponent } from './components/post/post.component';
 import { NoPostsFoundComponent } from './components/no-posts-found/no-posts-found.component';
 import { GrowOnHoverDirective } from './directives/grow-on-hover.directive';
 import { LikeButtonComponent } from './components/like-button/like-button.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { LikeButtonComponent } from './components/like-button/like-button.compon
     PostComponent,
     NoPostsFoundComponent,
     GrowOnHoverDirective,
-    LikeButtonComponent
+    LikeButtonComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

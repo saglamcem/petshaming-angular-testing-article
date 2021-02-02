@@ -1,6 +1,4 @@
-<mat-toolbar color="primary">
-  <span>Petshamingram</span>
-</mat-toolbar>
+<app-header></app-header>
 
 <div class="container" *ngIf="posts$ | async as posts">
   <ng-container *ngIf="posts && posts.length > 0; else noNewPosts">
