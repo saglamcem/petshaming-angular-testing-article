@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable, of } from 'rxjs';
-import { PetPost } from '../models/pet.model';
+import { PetPost } from '../models/post.model';
 import { petPostsData } from './pet-posts.data';
 import { delay } from 'rxjs/operators';
 import { HttpClient } from '@angular/common/http';

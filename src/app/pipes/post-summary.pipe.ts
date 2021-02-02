@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { PetPost } from '../models/pet.model';
+import { PetPost } from '../models/post.model';
 
 @Pipe({
   name: 'postSummary'

@@ -1,13 +1,13 @@
 import { Injectable } from '@angular/core';
 import { DataService } from './data.service';
 import { Observable, of } from 'rxjs';
-import { PetPost } from '../models/pet.model';
+import { PetPost } from '../models/post.model';
 import { catchError } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
 })
-export class PetService {
+export class PostService {
   constructor(private readonly dataService: DataService) {}
 
   getPetPosts(path: string): Observable<PetPost[]> {

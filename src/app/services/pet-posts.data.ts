@@ -1,4 +1,4 @@
-import { PetPost } from '../models/pet.model';
+import { PetPost } from '../models/post.model';
 
 export const petPostsData: PetPost[] = [
   {
