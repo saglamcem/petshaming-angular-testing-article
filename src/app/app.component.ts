@@ -9,7 +9,7 @@ import { PetPost } from './models/post.model';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  readonly posts$: Observable<PetPost[]> = this.petService.getPetPosts('api/pets/whatever');
+  readonly posts$: Observable<PetPost[]> = this.postService.getPetPosts('api/pets/whatever');
 
-  constructor(private readonly petService: PostService) {}
+  constructor(private readonly postService: PostService) {}
 }
