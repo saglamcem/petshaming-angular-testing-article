@@ -6,7 +6,7 @@ import { PetPost } from '../models/post.model';
 })
 export class PostSummaryPipe implements PipeTransform {
   transform(petPost: PetPost): string {
-    if (!petPost || !petPost.numberOfLikes) return '';
+    if (!petPost || petPost.numberOfLikes == null) return '';
 
     if (petPost.numberOfLikes === 0) return `${petPost.name} (No likes yet)`;
     if (petPost.numberOfLikes === 1) return `${petPost.name} (1 like)`;
