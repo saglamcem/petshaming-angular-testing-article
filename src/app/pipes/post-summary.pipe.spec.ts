@@ -11,7 +11,7 @@ import {
 
 const getAnythingAsPetPost = (anything: any): PetPost => (anything as unknown) as PetPost;
 
-fdescribe('PostSummaryPipe', () => {
+describe('PostSummaryPipe', () => {
   const pipe = new PostSummaryPipe();
 
   it('create an instance', () => {
