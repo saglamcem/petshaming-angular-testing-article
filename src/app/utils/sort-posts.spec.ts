@@ -1,7 +1,7 @@
 import { sortedListOfPosts, unsortedListOfPosts } from '../__mocks__/sort-posts.mock';
 import { sortPostsByLikesDesc } from './sort-posts';
 
-fdescribe('SortPosts', () => {
+describe('SortPosts', () => {
   describe('sortPostsByLikesDesc', () => {
     it('should sort posts by likes in descending order', () => {
       const input = unsortedListOfPosts;
